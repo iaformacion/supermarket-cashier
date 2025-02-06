@@ -2,7 +2,7 @@ def enterProducts():
     buyingData = {}
     enterDetails = True
     while enterDetails:
-        details = input("Press A to add product and Q to quit: ")
+        details = input("Press A to add product and Q for quit: ")
         if details == "A":
             product = input("Enter product: ")
             quantity = int(input("Enter quantity: "))
